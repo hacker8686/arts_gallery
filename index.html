@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art Gallery</title>
+<link href='https://fonts.googleapis.com/css?family=Condiment' rel='stylesheet'>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+<script src="https://js.stripe.com/v3/"></script>
+<link rel="stylesheet" href="link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+
+
+<style>
+  
+  
+</style>
+</head>
+<body>
+<header id="header">
+  <h1>NEELAM ARTS GALLERY</h1>
+  <p>Welcome To Our Online Art Gallery</p>
+</header>
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <h2>The Art Gallery....</h2>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-artist">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#certificate">Achievement</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="arts">
+  
+  <div class="gallery">
+    
+    <div class="artwork">
+      <img src="painting2.jpeg" alt="Artwork 1">
+      <h2>Artwork Title-In a Garden</h2>
+      <p>Artist: Chiku</p>
+      <blockquote>"Art enables us to find ourselves and lose ourselves at the same time." - Thomas Merton</blockquote>
+      <p>Price:1700Rs</p>
+      <a class="purchase-button" href="#">Purchase Now</a>
+    </div>
+    <div class="artwork">
+      <img src="painting7.jpeg" alt="Artwork 2">
+      <h2>Artwork Title-Lord Buddha</h2>
+      <p>Artist: Chiku</p>
+      <blockquote>"Every artist was first an amateur." - Ralph Waldo Emerson</blockquote>
+      <p>Price:5000Rs</p>
+      <a class="purchase-button" href="#">Purchase Now</a>
+    </div>
+    <div class="artwork">
+      <img src="lord_shiva.jpeg" alt="Artwork 3">
+      <h2>Artwork Title-Lord Shiva</h2>
+      <p>Artist: Chiku</p>
+      <blockquote>"100% hand  painted Lord  shiva painting on canvas using oil colours. It has been  crafted in  a way  so   that  it  makes your place beautiful,  the painting  has  been designed  by  artist in  such  a  way so  that  it  can  attract more eyes"</blockquote>
+      <p>Price: 1000Rs</p>
+      <a class="purchase-button" href="#">Purchase Now</a>
+    </div>
+    <div class="artwork">
+      <img src="painting6.jpeg" alt="Artwork 2">
+      <h2>Artwork Title- Radha Krishna</h2>
+      <p>Artist: Chiku</p>
+      <blockquote>Hand painted canvas painting,oil painting </blockquote>
+      <p>Price:1350Rs</p>
+      <a class="purchase-button" href="#">Purchase Now</a>
+    </div>
+    <div class="artwork">
+      <img src="painting5.jpeg" alt="Artwork 2">
+      <h2>Artwork Title-Landscape Oil Painting</h2>
+      <p>Artist: Chiku</p>
+      <blockquote>"Colors are the words that the heart can't express." - Claude Monet</blockquote>
+      <p>Price:2000Rs</p>
+      <a class="purchase-button" href="#">Purchase Now</a>
+    </div>
+    <div class="artwork">
+      <img src="https://s32625.pcdn.co/wp-content/uploads/2017/04/redon.flower-clouds.jpg.optimal.jpg" alt="Artwork 2">
+      <h2>Artwork Title-The Journey</h2>
+      <p>Artist: Chiku</p>
+      <blockquote>"Art is the poetry of the visual world." - Wassily Kandinsky</blockquote>
+      <p>Price:400Rs</p>
+      <a class="purchase-button" href="#">Purchase Now</a>
+    </div>
+    <!-- Add more artwork items here -->
+  </div>
+</div>
+<div class="about-artist" id="about-artist">
+  <h2>About the Artist</h2>
+  <div class="artist-profile">
+    <img src="author.jpeg" alt="Artist Name">
+    <p><strong>Miss Neelam Rajpoot</strong></p>
+    <p>Hello guys this is Neelam,founder of this Art Gallery.I'm happy to share my Artwork with all of you.I hope you all will like it.This is my initiative to explore the World of Art.I will be very happy to connect with you.Every artist we showcase holds a piece of my heart, and every piece on display tells a story of passion, dedication, and a deep connection to the world around us. I believe that art has the remarkable power to heal, inspire, and bridge the gaps that words often struggle to fill.
+
+      So, as you explore these corridors of creativity, may you find inspiration in every stroke, solace in every shade, and a renewed appreciation for the beauty that exists in every corner of our existence. Thank you for being a part of this incredible journey with us. Your presence brings life to these colors and depth to these stories.</p>
+     
+  </div>
+</div>
+<div class="certificate-section" id="certificate">
+  <h2>Achievement Certificate</h2>
+  <img src="art-cer.jpeg" alt="Artist Certificate">
+</div>
+
+
+</div>
+<footer id="contact">
+  <div class="footer-container">
+      <div class="formalities">
+          <p>&copy; 2023 Neelam Arts Gallery</p>
+          <p>Miss Neelam Rajpoot</p>
+          <p>Email-neelamrajpoot210@gmail.com</p>
+          <p>Mahoba (Uttar Pradesh),210427</p>
+          <p>Website Designer-Shubham Purwar</p>
+          <p>shubhampurwar2003@gmail.com</p>
+          
+      </div>
+      <div class="social-icons">
+          <a href="" class="fa fa-facebook" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/neelam-rajpoot-71a4bb279" class="fa fa-linkedin" target="_blank"></a>
+          <a href="https://instagram.com/neelam_art_gallery_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="fa fa-instagram" target="_blank" ></a>
+          <!-- Add more social media images and links here -->
+      </div>
+  </div>
+  <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="#about-artist">About</a>
+      <a href="#contact">Contact US</a>
+      <a href="#header">Go to Top</a>
+      <!-- Add more links here -->
+  </div>
+</footer>
+  
+<script src="payment.js">
+  // Your JavaScript code here
+
+</script>
+</body>
+</html>
