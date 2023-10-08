@@ -1,0 +1,346 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  
+
+  }
+
+  body {
+    background-image: url('https://t3.ftcdn.net/jpg/02/99/86/36/360_F_299863697_gdIFq8PpXCOczkWBrkDRE4ZLn0s00LHW.jpg');
+    background-size: cover; /* Cover the entire page with the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif; /* Specify a fallback font family */
+    /* Add any other global styles you want */
+    
+}
+
+  header {
+   
+    /* Replace #FFA500 and #FF4500 with your desired gradient colors */
+    color: white; 
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom:  2px solid white;
+    
+  }
+  header h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 10px black;
+  }
+  header p
+  {
+    font-family: 'Courier New', monospace;
+    text-shadow: 0px 0px 10px black;
+  }
+
+  
+
+  
+
+  nav li {
+    display: inline;
+    margin-right: 150px;
+  }
+
+  
+
+  
+  .custom-navbar {
+    
+    /* Replace #FFA500 and #FF4500 with your desired gradient colors */
+    background: linear-gradient(to right, #FFA500, #FF4500);
+    color: white; 
+    border: none; /* Remove the border */
+    padding:5px; /* Remove padding */
+    margin: 0;
+    border-bottom: 2px solid white;
+    font-family:'Philosopher', sans-serif;
+    text-shadow: 0px 0px 10px black;
+    
+    
+  }
+  .navbar-nav .nav-link {
+    color:white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    font-family:'Philosopher', sans-serif;
+    font-size: large;
+    text-shadow: 0px 0px 10px black;
+}
+.nav-link:hover
+{
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  text-shadow: none;
+  transform: scaleX(1.02);
+  transition: 0.5s ease-in-out;
+}
+.navbar-toggler{
+  background-color:rgba(242, 237, 237, 0.794);
+  color: white;
+}
+.collapse navbar-collapse
+{
+  background-color: transparent;
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .artwork {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #dfdddd81;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px black;
+  
+  }
+  .artwork:hover
+  {
+    background-color: rgb(222, 221, 221);
+  }
+  .artwork h2
+  {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .artwork p{
+    font-family: 'Philosopher', sans-serif;;
+  }
+
+  .artwork:hover {
+    transform: scale(1.03);
+  }
+
+  .artwork img {
+    max-width: 100%;
+    height: auto;
+    
+    
+  }
+
+  .purchase-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .purchase-button:hover {
+    background-color: #e57d00;
+    
+  }
+  .about-artist {
+    padding: 2rem;
+    background-color:transparent;
+    margin-top: 2rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .about-artist h2
+  {
+    font-family:'Philosopher', sans-serif;
+   font-weight: bold; 
+  }
+
+  .artist-profile {
+    text-align: center;
+    font-family:'Philosopher', sans-serif;
+  }
+
+  .artist-profile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 70%;
+    margin-bottom: 1rem;
+  }
+
+  .certificate-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .certificate-section h2 {
+    font-size: 50px;
+    margin: 10px 0;
+    font-family:'Philosopher', sans-serif;
+  }
+  
+  .certificate-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  footer {
+    background-color:rgba(0, 0, 0, 0.886);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 100px;
+    border: 2px solid white;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.formalities {
+    flex: 2;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.formalities p {
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formalities a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px; /* Increase the font size for social media icons */
+    
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    
+  }
+  .fa-instagram {
+    background-image: linear-gradient(45deg, #F58529, #DD2A7B);
+    color: white;
+    
+  }
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: underline;
+    margin: 0 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  @media (max-width: 768px) {
+    nav li {
+      display: block;
+      margin: 0;
+    }
+    nav ul {
+      text-align: center;
+    }
+    .gallery {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 0.5rem;
+    }
+    .artwork {
+      padding: 0.5rem;
+    }
+    .artwork img {
+      max-width: 100%;
+    }
+    .purchase-button {
+      position: static;
+      display: block;
+      margin-top: 0.5rem;
+    }
+    .about-artist {
+      padding: 1rem;
+    }
+    .artist-profile img {
+      max-width: 80%;
+    }
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .formalities,
+  .social-icons,
+  .footer-links {
+      flex: none;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+  }
+
+  .footer-links {
+      margin-top: 10px;
+      
+  }
+
+  .social-icons a {
+      margin: 0 5px;
+      
+  } 
+  
+  }
